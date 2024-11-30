@@ -1,0 +1,132 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #f8f9fa;
+    color: #333;
+  }
+  
+  /* Navbar */
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2rem;
+    background-color: #007bff;
+    color: white;
+    width:120vw;
+  }
+  
+  .navbar .logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+    padding:1cap;
+  }
+  
+  .navbar ul {
+    list-style: none;
+    display: flex;
+    gap: 1.5rem;
+  }
+  
+  .navbar a {
+    text-decoration: none;
+    color: white;
+  }
+  
+  .navbar .login-btn {
+    background-color: #28a745;
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+    font-weight: bold;
+  }
+  
+  /* Hero Section */
+  .hero {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 70vh;
+    background: url('hero-image.jpg') no-repeat center/cover;
+    text-align: center;
+    color: white;
+  }
+  
+  .hero-content h1 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+  }
+  
+  .hero-content p {
+    margin-bottom: 1.5rem;
+    font-size: 1.2rem;
+  }
+  
+  .search-bar {
+    padding: 0.5rem;
+    width: 60%;
+    margin-bottom: 1rem;
+  }
+  
+  .cta-btn {
+    background-color: #28a745;
+    color: white;
+    border: none;
+    padding: 0.7rem 1.5rem;
+    font-size: 1rem;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  /* Dashboard */
+  .dashboard {
+    display: flex;
+  }
+  
+  .sidebar {
+    width: 20%;
+    background-color: #343a40;
+    color: white;
+    padding: 1rem;
+  }
+  
+  .sidebar ul {
+    list-style: none;
+  }
+  
+  .sidebar li {
+    margin: 1rem 0;
+  }
+  
+  .dashboard-main {
+    width: 80%;
+    padding: 2rem;
+  }
+  
+  .dashboard-widgets {
+    display: flex;
+    gap: 1.5rem;
+  }
+  
+  .widget {
+    flex: 1;
+    background-color: #fff;
+    padding: 1rem;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    text-align: center;
+  }
+  .top-Heading{
+    color:purple;
+    font-family: 'Times New Roman', Times, serif;
+  }
+  .main-Para {
+    color:rgb(136, 178, 245);
+    padding-bottom: 5px;
+  }
